@@ -20,7 +20,7 @@ Open with CTRL+SHIFT+P, search for "Open Keyboard Shortcuts (JSON)"
     // quick add comment block for typescript, javascript, css, json, jsonc
     {
         "key": "Ctrl+Shift+oem_2",
-        "command": "editor.action.insertSnippet",
+        "command": "editor.action.blockComment",
         "when": "!editorHasSelection && (editorLangId == 'typescript' || editorLangId == 'javascript' || editorLangId == 'css' ||  editorLangId == 'json' || editorLangId == 'jsonc')",
         "args": {
             "snippet": "/* $0 */"
@@ -40,7 +40,7 @@ Open with CTRL+SHIFT+P, search for "Open Keyboard Shortcuts (JSON)"
     // quick add comment block for html
     {
         "key": "Ctrl+Shift+oem_2",
-        "command": "editor.action.insertSnippet",
+        "command": "editor.action.blockComment",
         "when": "!editorHasSelection && (editorLangId == 'html')",
         "args": {
             "snippet": "<!-- $0 -->"
