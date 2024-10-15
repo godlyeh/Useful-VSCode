@@ -1,13 +1,13 @@
 # Useful-VSCode
-Add this in keybindings.json for easier commenting.
+# Add this in keybindings.json for easier commenting.
 
-Shift+* to add code into comment blocks /* selected text */ or in html <!-- selected text -->
+ - Shift+* to add code into comment blocks /* selected text */ or in html <!-- selected text -->
 
-You can click it again to remove commented blocks
+ - You can click it again to remove commented blocks
 
-Open with CTRL+SHIFT+P, search for "Open Keyboard Shortcuts (JSON)"
+ - Open with CTRL+SHIFT+P, search for "Open Keyboard Shortcuts (JSON)"
 
-    // comment out code for typescript, javascript, css, json, jsonc
+    ```// comment out code for typescript, javascript, css, json, jsonc
     {
         "key": "Shift+oem_2",
         "command": "editor.action.blockComment",
